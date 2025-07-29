@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../public/Images/bus.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.login-box:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+.dashboard-bg {
+  background: url('/public/Images/bus-2.webp') no-repeat center center fixed;
+  background-size: cover;
+}

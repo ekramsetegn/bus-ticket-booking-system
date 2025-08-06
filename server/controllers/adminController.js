@@ -1,7 +1,6 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const pool = require('../db');
-
 const loginAdmin = async (req, res) => {
   const { email, password } = req.body;
 
